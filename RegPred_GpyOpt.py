@@ -236,7 +236,7 @@ for ii in [8, 9, 10, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
                        expand_steps_ForTrain, kind_, ii, kind_)
                        )
         save_results_1 = True
-
+ 
         if os.path.isfile(my_file):
             with open(my_file, 'rb') as f:
                 past_loss_1 = pkl.load(f)
