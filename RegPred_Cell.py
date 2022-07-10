@@ -11,7 +11,7 @@ class RegCell_PredCell(object):
         self.num_layer = num_layer
 
         # input_size for each layer in Encoder
-        self.input_size_1 = input_size_1
+        self.input_size_1 = input_size_1 
         self.input_size_2 = input_size_2
         self.input_size_3 = input_size_3
         self.input_size_4 = input_size_4 # input_size for the 4th layer
