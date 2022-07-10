@@ -4,9 +4,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from numpy.linalg import cholesky
 from sklearn.linear_model import LinearRegression
-# from Calibration import Find_max_min_from_parameters
-# from Generate_artificial_data import transform_X_to_dataframe
-# from artificial_data_third_edition import generate_X_GOU_2, generate_X_GOU_2_with_set_params
 
 def calibration_fx(data, dt, if_log=True):
     """
