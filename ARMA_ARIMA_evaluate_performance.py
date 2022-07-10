@@ -247,7 +247,7 @@ if plot_for_paper:
                   "RMSE: {0:.3f},  ".format(RMSE(pred_y, labels_2[ii - 1])) +
                   "MDA: {0:.3f}".format(MDA(pred_y, labels_2[ii - 1])), fontsize=15
                   )
-        # plt.show()
+        # plt.show() 
         fig_save_address = abspath + 'Figure/Plot_for_paper/ARIMA/{}/ARIMA_{}_fig_{}th.pdf'.format(kind_3, kind_3, ii)
         plt.savefig(fig_save_address, format='pdf', bbox_inches='tight')
         plt.close()
