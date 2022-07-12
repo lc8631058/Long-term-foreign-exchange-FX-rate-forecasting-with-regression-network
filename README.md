@@ -13,7 +13,7 @@ Some of the results visualization:
 
 ## Abstract
 
-The article is concerned with the problem of multi-step financial time series forecasting of Foreign Exchange (FX) rates. To address this problem, we introduce a regression network termed
+The article is concerned with the problem of multi-step financial time series forecasting of Foreign Exchange (FX) rates. To address this problem, we introduce a regression network termed
 RegPred Net. The exchange rate to forecast is treated as a stochastic process. It is assumed
 to follow a generalization of Brownian motion and the mean-reverting process referred to as
 generalized Ornstein-Uhlenbeck (OU) process, with time-dependent coefficients. Using past
@@ -24,7 +24,7 @@ procedure for which, Bayesian optimization is an adequate heuristic. Thanks to i
 architecture, the second half of the regression network (Pred) can project time-dependent values
 for the OU process coefficients and generate realistic trajectories of the time series. Predictions
 can be easily derived in the form of expected values estimated by averaging values obtained by
-Monte Carlo simulation. The forecasting accuracy on a 100 days horizon is evaluated for several of the most important FX rates such as EUR/USD, EUR/CNY and EUR/GBP. Our experimental results show that the RegPred Net significantly outperforms ARMA, ARIMA, LSTMs,
+Monte Carlo simulation. The forecasting accuracy on a 100 days horizon is evaluated for several of the most important FX rates such as EUR/USD, EUR/CNY and EUR/GBP. Our experimental results show that the RegPred Net significantly outperforms ARMA, ARIMA, LSTMs,
 and Autoencoder-LSTM models in terms of metrics measuring the absolute error (RMSE) and
 correlation between predicted and actual values (Pearson’s R, R-squared, MDA). Compared to
 black-box deep learning models such as LSTM, RegPred Net has better interpretability, simpler
